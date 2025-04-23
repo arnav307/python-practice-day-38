@@ -29,8 +29,7 @@ def Filename():
         if file_user=='f':
             score_entry=input("Enter  a file name!!: ")
             with open(score_entry,'w') as filename:
-                name=filename.write(f"You have score {result}")
-                print(name)
+                filename.write(f"You have score {result}")
                 print("score saved to the file check it!!!!!!!!!!!")
         else:
            print(f"You have score {result} correct")
